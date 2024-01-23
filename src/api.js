@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get("/key", (req, res) => {
   res.json({
-    x_api_key: "Hello this is the new api key for sky-scanner"
+    x_api_key: "Hello this is the new api key for the project"
   });
 });
 
